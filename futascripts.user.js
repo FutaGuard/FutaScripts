@@ -14,4 +14,4 @@
 if(!document.cookie.match(/over18=1/)){document.cookie='over18=1;path=/';location.reload()};
 
 // BigGo
-if(!document.cookie.match(/noad=\d+/)){document.cookie='noad=9999999999;path=/'};
+if(!document.cookie.match(/noad=\d+/)||document.cookie.match('(^|;)\\s*' + "noad" + '\\s*=\\s*([^;]+)')[2]!=9999999999){document.cookie='noad=9999999999;path=/'};
