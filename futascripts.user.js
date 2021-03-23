@@ -4,7 +4,7 @@
 // @match       https://www.ptt.cc
 // @match       https://biggo.com.tw
 // @grant       none
-// @version     1.1
+// @version     1.2
 // @author      https://github.com/FutaGuard
 // @description a FutaGuard team script collections.
 // @installURL  https://script.futa.gg/futascripts.user.js
