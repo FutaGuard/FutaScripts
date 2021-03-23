@@ -14,7 +14,7 @@
 
 
 // PTT 18 歲年齡驗證
-if(!document.cookie.match(/over18=1/)){document.cookie='over18=1;path=/';location.reload()};
+document.onreadystatechange=()=>{if(location.pathname.includes('/ask/over18')){document.querySelectorAll('.over18-button-container>button[name="yes"]').forEach(x=>x.click())}};
 
 // BigGo
 if(!document.cookie.match(/noad=\d+/)||document.cookie.match('(^|;)\\s*' + "noad" + '\\s*=\\s*([^;]+)')[2]!=9999999999){document.cookie='noad=9999999999;path=/'};
