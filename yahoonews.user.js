@@ -6,6 +6,8 @@
 // @version     1.0
 // @author      tdc
 // @description 2023/12/30 上午11:37:33
+// @updateURL   https://script.futa.gg/yahoonews.user.js
+// @downloadURL https://script.futa.gg/yahoonews.user.js
 // ==/UserScript==
 
 let links = ''
